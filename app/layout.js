@@ -1,14 +1,16 @@
 import "./globals.css";
+
 export const metadata = {
-    title: "API Rick e Morty",
+  title: "Rick and Morty",
+  description: "Explorando o universo de Rick and Morty com minha primeira API!",
 };
+
 export default function RootLayout({ children }) {
-    return (
-        <html>
-            <body>
-                {/* <Header /> */}
-                {children}
-            </body>
-        </html>
-    );
+  return (
+    <html lang="en">
+      <body>
+        {children}
+      </body>
+    </html>
+  );
 }
