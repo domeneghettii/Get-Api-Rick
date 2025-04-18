@@ -1,4 +1,4 @@
-import styles from './../styles/CharacterCard.module.css';
+import styles from '../styles/CharacterCard.module.css';
 
 export default function CharacterCard( {character,} ) {
     return (
